@@ -1,0 +1,1 @@
+This plugin allows you to have users authenticate against facebook connect.

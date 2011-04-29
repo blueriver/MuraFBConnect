@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+	<name>Facebook Connect</name>
+	<package>fbconnect</package>
+	<directoryFormat>packageOnly</directoryFormat>
+	<loadPriority>5</loadPriority>
+	<version>1.0.78</version>
+	<provider>Blue River</provider>
+	<providerURL>http://blueriver.com/</providerURL>
+	<category>Authorization</category>
+	<settings>
+		<setting>
+			<name>client_id</name>
+			<label>Client ID</label>
+			<hint>Your Facebook client id.</hint>
+			<type>TextBox</type>
+			<required>true</required>
+			<validation>None</validation>
+			<regex></regex>
+			<message>The Facebook client id is required</message>
+			<defaultValue></defaultValue>
+			<optionList></optionList>
+			<optionLabelList></optionLabelList>
+		</setting>
+	</settings>
+	<EventHandlers>
+		<eventHandler event="onApplicationLoad" component="eventHandlers.MainEventHandler" persist="true" />
+	</EventHandlers>
+	<DisplayObjects />
+</plugin>
